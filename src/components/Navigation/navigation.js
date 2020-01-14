@@ -20,6 +20,7 @@ const Navigation = () => (
                         image={{ alt: '', src: IMAGE }}
                         title={LABEL}
                         to={TO}
+                        key={LABEL}
                     />
                 ))}
             </S.List>

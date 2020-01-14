@@ -1,5 +1,6 @@
 import React from "react"
 import { shape, string } from "prop-types"
+import { Location } from '@reach/router';
 import * as S from "./navigation-item.styles"
 
 const propTypes = {
@@ -13,20 +14,23 @@ const propTypes = {
 const NavigationItem = ({
     activeBackground,
     background,
-    isActive,
     image,
     title,
     to,
 }) => (
-    <S.Wrapper
-        activeBackground={activeBackground}
-        background={background}
-        to={to}
-        isActive={isActive}
-    >
-      <S.Image alt={image.alt} src={image.src} />
-      <S.Title>{title}</S.Title>
-    </S.Wrapper>
+    <Location>
+        {locationProps => (
+            <S.Wrapper
+                activeBackground={activeBackground}
+                background={background}
+                isActive={locationProps.location.pathname === to}
+                to={to}
+            >
+              <S.Image alt={image.alt} src={image.src} />
+              <S.Title>{title}</S.Title>
+            </S.Wrapper>
+        )}
+    </Location>
 )
 
 NavigationItem.propTypes = propTypes

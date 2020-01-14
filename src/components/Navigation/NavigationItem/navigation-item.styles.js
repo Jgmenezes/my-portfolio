@@ -40,7 +40,7 @@ export const Wrapper = styled(Link)`
   ${({ isActive }) => isActive && css`
     background-color: ${({ activeBackground }) => activeBackground};
     height: 115px;
-    width: 115%;
+    width: 101%;
     z-index: 1;
     
     @media ${MEDIA_QUERIES.DESKTOP_SCREEN} {
@@ -65,6 +65,7 @@ const kick = keyframes`
 
 export const Image = styled.img`
   height: 75px;
+  margin: 0;
   width: 75px;
   z-index: 1;
   
