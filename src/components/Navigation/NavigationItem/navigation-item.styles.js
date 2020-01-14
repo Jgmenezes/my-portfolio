@@ -1,6 +1,6 @@
 import styled, { css, keyframes } from "styled-components"
 import { Link } from "gatsby"
-import MEDIA_QUERIES from "../../../../utils/constants/mediaQuerie.constants";
+import MEDIA_QUERIES from "../../../utils/constants/mediaQuerie.constants";
 
 export const Wrapper = styled(Link)`
   align-items: center;

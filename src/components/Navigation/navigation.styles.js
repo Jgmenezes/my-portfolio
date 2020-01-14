@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components"
-import MEDIA_QUERIES from "../../../utils/constants/mediaQuerie.constants"
+import MEDIA_QUERIES from "../../utils/constants/mediaQuerie.constants"
 
 export const Label = styled.span`
   color: #ffffff;
