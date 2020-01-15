@@ -1,6 +1,6 @@
 import React from "react"
 import * as S from "./navigation.styles"
-import ROUTES from "../../../utils/constants/routes.constants";
+import ROUTES from "../../utils/constants/routes.constants";
 import NavigationItem from "./NavigationItem/navigation-item";
 
 const Navigation = () => (

@@ -7,9 +7,9 @@ import {
   TERCIARY_COLOR,
 } from './color.constants';
 
-import AvatarImage from '../../static/img/avatar.svg'
-import ProjectImage from '../../static/img/project.svg';
-import AboutImage from '../../static/img/about.svg';
+import AvatarImage from '../../../static/img/avatar.svg'
+import ProjectImage from '../../../static/img/project.svg';
+import AboutImage from '../../../static/img/about.svg';
 
 const ROUTES = [{
   TO: '/',

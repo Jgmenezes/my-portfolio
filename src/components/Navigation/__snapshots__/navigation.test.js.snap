@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navigation /> should render correctly 1`] = `
+<DocumentFragment>
+  <header
+    class="sc-bxivhb bBDNGA"
+  >
+    <nav
+      class="sc-htpNat oFzYK"
+    >
+      <ul
+        class="sc-ifAKCX dsytzK"
+      >
+        <a
+          activebackground="#5A58BF"
+          aria-current="page"
+          background="#312D4E"
+          class="sc-bZQynM iKDMaF"
+          href="/"
+        >
+          <img
+            alt=""
+            class="sc-gzVnrw hGhbNK"
+            src="test-file-stub"
+          />
+          <span
+            class="sc-htoDjs dIBGMA"
+          >
+            Home
+          </span>
+        </a>
+        <a
+          activebackground="#c14d7e"
+          background="#242139"
+          class="sc-bZQynM gjAAwc"
+          href="/projects"
+        >
+          <img
+            alt=""
+            class="sc-gzVnrw hGhbNK"
+            src="test-file-stub"
+          />
+          <span
+            class="sc-htoDjs dIBGMA"
+          >
+            Projects
+          </span>
+        </a>
+        <a
+          activebackground="#4dc190"
+          background="#1A1A29"
+          class="sc-bZQynM fzgiDj"
+          href="/about"
+        >
+          <img
+            alt=""
+            class="sc-gzVnrw hGhbNK"
+            src="test-file-stub"
+          />
+          <span
+            class="sc-htoDjs dIBGMA"
+          >
+            About
+          </span>
+        </a>
+      </ul>
+    </nav>
+  </header>
+</DocumentFragment>
+`;
