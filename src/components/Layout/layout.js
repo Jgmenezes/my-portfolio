@@ -7,14 +7,17 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import { ThemeProvider } from "styled-components";
 
-import "./layout.css"
-import Navigation from "./Navigation/navigation";
+import Navigation from "../Navigation/navigation";
+import GlobalStyles from "../../styles/global";
+import theme from "../../styles/theme";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <div>
+      <GlobalStyles />
+      <ThemeProvider theme={theme}>
         <Navigation />
         <main>{children}</main>
         <footer>
@@ -22,7 +25,7 @@ const Layout = ({ children }) => {
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
-      </div>
+      </ThemeProvider>
     </>
   )
 }

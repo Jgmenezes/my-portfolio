@@ -80,9 +80,7 @@ export const Image = styled.img`
 `;
 
 export const Title = styled.span`
-    color: #ffffff;
-    font-size: calc(0.6rem + 0.5vw);
     margin-top: 5px;
     z-index: 1;
-    font-family: "Helvetica Neue", sans-serif;
+    ${props => props.theme.NavigationItem_Text};
 `;
