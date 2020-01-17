@@ -18,13 +18,13 @@ const ROUTES = [{
   IMAGE: AvatarImage,
   LABEL: 'Home',
 }, {
-  TO: '/projects',
+  TO: '/projects/',
   ACTIVE_BACKGROUND: MULLBERRY,
   BACKGROUND: TERCIARY_COLOR,
   IMAGE: ProjectImage,
   LABEL: 'Projects',
 }, {
-  TO: '/about',
+  TO: '/about/',
   ACTIVE_BACKGROUND: EMERALD,
   BACKGROUND: DARK_PURPLE,
   IMAGE: AboutImage,
