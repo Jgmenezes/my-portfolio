@@ -1,6 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+    @font-face {
+      font-family: "Segoe UI";
+      src: url("../../static/fonts/segoe-ui.otf")   format("woff");
+    } 
+
   /* http://meyerweb.com/eric/tools/css/reset/
     v2.0 | 20110126
     License: none (public domain)
@@ -62,7 +67,7 @@ const GlobalStyles = createGlobalStyle`
   }
   /* End of reset styles */
   html {
-    font-size: 10px;
+    font-size: 16px;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: Garamond, Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;

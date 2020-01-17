@@ -24,7 +24,7 @@ exports[`<Navigation /> should render correctly 1`] = `
             src="test-file-stub"
           />
           <span
-            class="sc-htoDjs dIBGMA"
+            class="sc-htoDjs kRwjxk"
           >
             Home
           </span>
@@ -33,7 +33,7 @@ exports[`<Navigation /> should render correctly 1`] = `
           activebackground="#c14d7e"
           background="#242139"
           class="sc-bZQynM gjAAwc"
-          href="/projects"
+          href="/projects/"
         >
           <img
             alt=""
@@ -41,7 +41,7 @@ exports[`<Navigation /> should render correctly 1`] = `
             src="test-file-stub"
           />
           <span
-            class="sc-htoDjs dIBGMA"
+            class="sc-htoDjs kRwjxk"
           >
             Projects
           </span>
@@ -50,7 +50,7 @@ exports[`<Navigation /> should render correctly 1`] = `
           activebackground="#4dc190"
           background="#1A1A29"
           class="sc-bZQynM fzgiDj"
-          href="/about"
+          href="/about/"
         >
           <img
             alt=""
@@ -58,7 +58,7 @@ exports[`<Navigation /> should render correctly 1`] = `
             src="test-file-stub"
           />
           <span
-            class="sc-htoDjs dIBGMA"
+            class="sc-htoDjs kRwjxk"
           >
             About
           </span>
