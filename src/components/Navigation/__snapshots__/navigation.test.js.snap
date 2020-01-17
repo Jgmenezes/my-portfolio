@@ -24,7 +24,7 @@ exports[`<Navigation /> should render correctly 1`] = `
             src="test-file-stub"
           />
           <span
-            class="sc-htoDjs dIBGMA"
+            class="sc-htoDjs kRwjxk"
           >
             Home
           </span>
@@ -41,7 +41,7 @@ exports[`<Navigation /> should render correctly 1`] = `
             src="test-file-stub"
           />
           <span
-            class="sc-htoDjs dIBGMA"
+            class="sc-htoDjs kRwjxk"
           >
             Projects
           </span>
@@ -58,7 +58,7 @@ exports[`<Navigation /> should render correctly 1`] = `
             src="test-file-stub"
           />
           <span
-            class="sc-htoDjs dIBGMA"
+            class="sc-htoDjs kRwjxk"
           >
             About
           </span>
