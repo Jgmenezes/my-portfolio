@@ -2,8 +2,8 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
     @font-face {
-      font-family: "Segoe UI";
-      src: url("../../static/fonts/segoe-ui.otf")   format("woff");
+      font-family: "Roboto";
+      src: url("../../static/fonts/roboto-regular.ttf")   format("woff");
     } 
 
   /* http://meyerweb.com/eric/tools/css/reset/
