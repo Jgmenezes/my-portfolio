@@ -25,6 +25,6 @@ export const Paragraph = styled.p`
   color: ${DARK_PURPLE};
   font-size: calc(1rem + .7vw);
   font-weight: 400;
-  line-height: calc(1.5rem + 0.5vw);
+  line-height: calc(1.5rem + 1vw);
   ${defaultTextStyle};
 `;
