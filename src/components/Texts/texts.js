@@ -10,13 +10,13 @@ const defaultTextStyle = css`
 
 export const Title = styled.h1`
   color: ${DARK_PURPLE};
-  font-size: calc(1rem + .5vw);
+  font-size: calc(1.5rem + .5vw);
   ${defaultTextStyle};
 `;
 
 export const Subtitle = styled.h3`
   color: ${DARK_PURPLE};
-  font-size: calc(.7rem + .5vw);
+  font-size: calc(0.8rem + .5vw);
   font-weight: 400;
   ${defaultTextStyle};
 `;
