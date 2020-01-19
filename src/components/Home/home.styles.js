@@ -27,6 +27,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   flex: 1 0 auto;
   justify-content: center;
+  height: calc(100vh - 150px);
   
   @media ${MEDIA_QUERIES.DESKTOP_SCREEN} {
     align-items: center;
