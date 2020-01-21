@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `João Guilherme Menezes`,
+    description: `João Guilherme is a frontend developer from Rio de Janeiro, Brazil. He works at Pareto Group and loves code beautifully things.`,
+    author: `@jgmenezes`,
     siteUrl: `https://jgmenezes.netlify.com/`,
   },
   plugins: [
@@ -55,15 +55,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `João Guilherme Menezes`,
+        short_name: `João Guilherme Menezes`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#fff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/assets/img/avatar.svg`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`
   ],
 }
