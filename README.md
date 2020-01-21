@@ -2,5 +2,12 @@
 
 [Access it](http://jgmenezes.netlify.com/)
 
-This project uses Gatsby (React), GraphQL, Styled Components, React Testing Library and Netlify CMS.
+Currently using:
+
+- [Gatsby](https://www.gatsbyjs.org)
+- [React](https://reactjs.org)
+- [Styled Components](https://styled-components.com/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [GraphQL](https://graphql.org)
+- [Netlify](https://www.netlify.com)
 
