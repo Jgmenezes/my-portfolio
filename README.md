@@ -1,5 +1,7 @@
 # João Guilherme Menezes - Personal website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d5e31b40-7e42-4e16-b5b8-a4bb002bbb01/deploy-status)](https://app.netlify.com/sites/jgmenezes/deploys)
+
 [Access it](http://jgmenezes.netlify.com/)
 
 Currently using:

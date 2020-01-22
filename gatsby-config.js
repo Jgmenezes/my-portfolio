@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `João Guilherme Menezes`,
@@ -13,13 +17,6 @@ module.exports = {
       options: {
         name: `uploads`,
         path: `${__dirname}/static/assets/img`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
       },
     },
     {
@@ -50,6 +47,12 @@ module.exports = {
           },
           `gatsby-remark-lazy-load`,
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `${process.env.GOOGLE_ANALYTICS_TRACKING_ID}`,
       },
     },
     {
