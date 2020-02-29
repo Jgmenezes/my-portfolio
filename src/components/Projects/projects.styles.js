@@ -3,6 +3,10 @@ import Img from "gatsby-image"
 
 import { Title } from "../Texts/texts";
 
+export const Wrapper = styled.div`
+    margin-bottom: 80px;
+`;
+
 export const Image = styled(Img)`
     margin-right: 15px;
 `;

@@ -43,7 +43,7 @@ const Projects = () => {
                     html
                 }
              }) => (
-                 <>
+                 <S.Wrapper>
                     <S.ArticleHeader>
                         <S.Image fixed={image.childImageSharp.fixed} />
                         <S.ArticleTitleWrapper>
@@ -54,7 +54,7 @@ const Projects = () => {
                      <S.ProjectWrapper>
                         <div dangerouslySetInnerHTML={{ __html: html }} />
                      </S.ProjectWrapper>
-                 </>
+                 </S.Wrapper>
             ))}
         </PageWrapper>
     )
