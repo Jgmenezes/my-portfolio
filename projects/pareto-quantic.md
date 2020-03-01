@@ -1,6 +1,6 @@
 ---
 name: Pareto Quantic
-description: 'https://app.paretoquantic.com / Ads Management Platform'
+description: Ads Management Platform
 date: 2018-03-01T00:00:00.000Z
 image: /pareto-logo.png
 ---
