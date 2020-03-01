@@ -1,8 +1,8 @@
 ---
-date: 2018-03-01
-description: Ads Management Platform
-image: /pareto-logo.png
 name: Pareto Quantic
+description: 'https://app.paretoquantic.com / Ads Management Platform'
+date: 2018-03-01T00:00:00.000Z
+image: /pareto-logo.png
 ---
 
 ![Pareto Quantic](/static/assets/img/pareto-project.png)
